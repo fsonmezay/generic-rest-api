@@ -2,8 +2,13 @@ package com.ferdisonmezay.tutorials.genericrestapi.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
+@Table(name="restapi_roles")
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Role extends BaseModel{
 
 	private static final long serialVersionUID = -1938567246027507296L;
