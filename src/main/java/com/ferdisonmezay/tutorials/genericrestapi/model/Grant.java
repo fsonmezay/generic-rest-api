@@ -1,9 +1,9 @@
 package com.ferdisonmezay.tutorials.genericrestapi.model;
 
 import javax.persistence.Column;
-import javax.persistence.Table;
+import javax.persistence.Entity;
 
-@Table
+@Entity
 public class Grant extends BaseModel {
 	
 	private static final long serialVersionUID = 4192997147639777673L;

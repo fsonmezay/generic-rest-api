@@ -1,7 +1,9 @@
 package com.ferdisonmezay.tutorials.genericrestapi.model;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 
+@Entity
 public class Role extends BaseModel{
 
 	private static final long serialVersionUID = -1938567246027507296L;
