@@ -1,4 +1,4 @@
-package com.ferdisonmezay.tutorials.genericrestapi.models;
+package com.ferdisonmezay.tutorials.genericrestapi.model;
 
 import java.io.Serializable;
 
