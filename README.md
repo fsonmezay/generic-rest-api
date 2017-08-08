@@ -244,7 +244,7 @@ import com.ferdisonmezay.tutorials.genericrestapi.model.Grant;
 
 @RestController
 @RequestMapping("/grants")
-public class RoleController extends GenericRestController<Grant> {
+public class GrantController extends GenericRestController<Grant> {
 
 }
 
@@ -262,7 +262,7 @@ import com.ferdisonmezay.tutorials.genericrestapi.model.Role;
 
 @RestController
 @RequestMapping("/roles")
-public class GrantController extends GenericRestController<Role> {
+public class RoleController extends GenericRestController<Role> {
 
 }
 
